@@ -1,0 +1,66 @@
+.nav-link  {
+   text-transform: uppercase;
+   font-size: 0.875rem;
+   border-left: 0.0625rem solid black;
+   padding: 0rem 1rem !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #1376F8 !important;
+}
+.navbar-toggler {
+  padding:  .125rem .125rem !important;
+  font-size: .75rem !important;
+}
+@media only screen  and (max-width: 1005px) {
+  .nav-link {
+    font-size: .825rem;
+    padding: 0rem .5rem !important;
+  }
+  .form-control {
+    width: 7.5rem !important;
+    font-size: .625rem !important;
+  }
+  .btn {
+    width: 4rem !important;
+    font-size: .625rem !important;
+  }
+}
+@media only screen  and (max-width: 845px) {
+  .nav-link {
+    font-size: .625rem;
+    padding: 0rem .25rem !important;
+  }
+  .form-control {
+    width: 5rem !important;
+    font-size: .5rem !important;
+  }
+  .btn {
+    width: 3rem !important;
+    font-size: .5rem !important;
+  }
+}
+@media only screen  and (max-width: 645px) {
+  .nav-link {
+    font-size: .4rem;
+    padding: 0rem .25rem !important;
+  }
+  .form-control {
+    width: 4rem !important;
+    font-size: .4rem !important;
+  }
+  .btn {
+    width: 3.5rem !important;
+    font-size: .4rem !important;
+  }
+}
+.content {
+  margin: .5rem .5rem;
+  border: .0625rem solid black;
+  padding: .5rem;
+}
+.carousel {
+  margin: .5rem .5rem;
+}
+.card {
+  margin: .5rem .5rem;
+}
