@@ -31,7 +31,7 @@ body {
 }
 @media only screen  and (max-width: 845px) {
   .nav-link {
-    font-size: .5rem;
+    font-size: 0.4375rem;
     padding: 0rem .25rem !important;
   }
   .form-control {
@@ -77,4 +77,4 @@ body {
   text-align: center;
 }
 h2 {
-  padding-top: 225px;
+  padding-top: 220px;
