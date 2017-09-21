@@ -17,7 +17,7 @@ body {
 }
 @media only screen  and (max-width: 1005px) {
   .nav-link {
-    font-size: .825rem;
+    font-size: .75rem;
     padding: 0rem .5rem !important;
   }
   .form-control {
@@ -31,7 +31,7 @@ body {
 }
 @media only screen  and (max-width: 845px) {
   .nav-link {
-    font-size: 0.4375rem;
+    font-size: .5rem;
     padding: 0rem .25rem !important;
   }
   .form-control {
