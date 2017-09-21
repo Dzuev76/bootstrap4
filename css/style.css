@@ -68,3 +68,14 @@ body {
 .card {
   margin: .5rem .5rem;
 }
+.header {
+  height: 400px;
+  background-image: url(../img/headerbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+h2 {
+  padding-top: 150px
+}
