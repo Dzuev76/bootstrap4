@@ -6,52 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>bootstrap4</title>
+    <script src="https://use.fontawesome.com/106b1b0ae0.js"></script>
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
-  <nav class="navbar">
-  <a class="navbar-brand" href="#">
-    <img src="img/logo.jpg" width="60" height="60" alt="logo">
-  </a>
-</nav>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpg" width="50" height="50" alt="logo">
+      </a>
+    </nav>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Active<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Контент 1</a>
+        <a class="nav-link" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Контент 2</a>
+        <a class="nav-link" href="#">Link</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">Контент 3</a>
+        <a class="nav-link" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">О нас</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Написать нам</a>
+        <a class="nav-link" href="#">About me</a>
       </li>
     </ul>
-    <form class="form-inline my-sm-0">
-      <input class="form-control form-control-sm mr-1" type="text" placeholder="" aria-label="Search">
-      <button class="btn btn-sm btn-outline-success" type="submit">Поиск</button>
-    </form>
+  <form class="form-inline my-sm-0">
+    <input class="form-control form-control-sm mr-1" type="text" placeholder="" aria-label="Search">
+      <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+  </form>
   </div>
-</nav>
-<div class="container-fluid header">
-  <h2>Best site on Bootstrap#4</h2> 
-</div>    
+    </nav>
+<header class="header d-flex flex-column justify-content-center align-items-center">
+  <div class="container">
+    <h3 class="display-4">Best website on Bootstrap v4.0.0-beta</h3>
+    <p class="lead"> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p> 
+  </div>
+</header>    
 <div class="container-fluid">
 	<div class="row d-flex">
 		<div class="content col">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum .</div>
@@ -65,13 +65,13 @@
     <div id="carouselExampleControls" class="carousel slide col" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/1.jpg"  alt="Responsive image">
+      <img class="d-block w-100" src="img/boot1.png"  alt="Responsive image">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/2.jpg" alt="Responsive image">
+      <img class="d-block w-100" src="img/boot2.jpg" alt="Responsive image">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/3.jpg" alt="Responsive image">
+      <img class="d-block w-100" src="img/boot3.png" alt="Responsive image">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -83,40 +83,157 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-    <div class="content col-lg-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</div>
+  <div class="content col-lg-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</div>
   </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid content-1">
   <div class="row">
-    <div class="col">
-      <div class="card text-center">
+    <div class="col-lg-3 order-3 order-lg-1">
+      <div class="card mb-3">
+        <img class="card-img-top" src="img/author.jpg" alt="Card image cap">
         <div class="card-body">
-          <h4 class="card-title">Special title treatment</h4>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go</a>
+          <h4 class="card-title">About me</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card text-center">
-        <div class="card-body">
-          <h4 class="card-title">Special title treatment</h4>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go</a>
-        </div>
+      <h3>Subscribe</h3>
+      <div class="block">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <button type="submit" class="btn btn-success btn-block">Subscribe</button>
+        </form>
       </div>
     </div>
-    <div class="col">
-      <div class="card text-center">
+    <div class="col-lg-6 col-md-8 order-1 order-lg-2">
+      <div class="card mb-3">
+        <img class="card-img-top" src="img/photo-1.jpg" alt="Card image cap">
         <div class="card-body">
-          <h4 class="card-title">Special title treatment</h4>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go</a>
+          <h4 class="card-title">Post title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Read more</a>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img class="card-img-top" src="img/photo-2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Post title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Read more</a>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img class="card-img-top" src="img/photo-3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Post title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Read more</a>
+        </div>
+      </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    <div class="col-lg-3 col-md-4 order-2 order-lg-3">
+      <div class="list-group md-4">
+        <a href="#" class="list-group-item active">Section 1</a>
+        <a href="#" class="list-group-item list-group-item-action">Section 2</a>
+        <a href="#" class="list-group-item list-group-item-action">Section 3</a>
+        <a href="#" class="list-group-item list-group-item-action">Section 4</a>
+      </div>
+      <h3>Tags cloud</h3>
+      <div class="block">
+        <a href="#" class="badge badge-info">travel</a>
+        <a href="#" class="badge badge-info">rest</a>
+        <a href="#" class="badge badge-info">mountain</a>
+        <a href="#" class="badge badge-info">world</a>
+        <a href="#" class="badge badge-info">nature</a>
+        <a href="#" class="badge badge-info">photos</a> 
+      </div>
+      <h3>Gallery</h3>
+      <div class="block">
+        <div class="row no-gutters">
+          <div class="col-6">
+            <img class="img-fluid" src="img/gallery-1.jpg" alt="">
+          </div>
+          <div class="col-6">
+            <img class="img-fluid" src="img/gallery-2.jpg" alt="">
+          </div>
+            <div class="col-6">
+            <img class="img-fluid" src="img/gallery-3.jpg" alt="">
+          </div>
+            <div class="col-6">
+            <img class="img-fluid" src="img/gallery-4.jpg" alt="">
+          </div>
+            <div class="col-6">
+            <img class="img-fluid" src="img/gallery-5.jpg" alt="">
+          </div>
+            <div class="col-6">
+            <img class="img-fluid" src="img/gallery-6.jpg" alt="">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Traveler blog</h3>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3>Contacts</h3>
+          <address>
+            Twitter, Inc.
+            1355 Market St, Suite 900
+            San Francisco, CA 94103
+            P: (123) 456-7890
+          </address>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3>Navigation</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright">
+  <div class="container">
+    <img src="img/logo.png" alt="">
+    <p>©Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+  </div>
+</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
