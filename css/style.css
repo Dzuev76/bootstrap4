@@ -53,13 +53,17 @@ body {
   color: #1376F8 !important;
 }
 .block {
+  margin: 1rem;
   background-color: white;
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+h3 {
+  margin-top: 2rem !important;
+}
 .page-item.active .page-link{
   background-color: red !important;
-  border-color: unset !important;
+  border-color: red !important;
 }
 .footer {
   padding: 2rem 0;
