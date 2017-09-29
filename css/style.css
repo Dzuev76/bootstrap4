@@ -1,40 +1,36 @@
 body {
   background-color: #f8f8f8 !important;
+}
 
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  border-left: 0.0625rem solid black;
+  padding: 0rem 1rem !important;
 }
-.nav-link  {
-   text-transform: uppercase;
-   font-size: 0.875rem;
-   border-left: 0.0625rem solid black;
-   padding: 0rem 1rem !important;
-}
-.navbar-light .navbar-nav .nav-link:hover {
+.nav-link:hover {
   color: #1376F8 !important;
 }
+
 .navbar-toggler {
-  padding:  .125rem .125rem !important;
+  padding: .125rem !important;
   font-size: .75rem !important;
 }
-@media only screen  and (max-width: 707px) {
+
+@media only screen and (max-width: 707px) {
   .nav-link {
     font-size: .9375rem;
     padding: 0rem .25rem !important;
   }
+
   .form-control {
     width: 8rem !important;
     font-size: .4rem !important;
   }
+
   .fa {
     font-size: 1rem !important;
   }
-}
-.content {
-  border:1px solid black;
-  background-color: white;
-  margin: .5em;
-}
-.carousel {
-  margin: auto .5rem;
 }
 .header {
   height: 470px;
@@ -45,6 +41,7 @@ body {
   color: white;
   text-align: center;
 }
+
 .fa {
   font-size: 1.5rem;
   color: black;
@@ -52,31 +49,36 @@ body {
 .fa:hover {
   color: #1376F8 !important;
 }
+
 .block {
   margin: 1rem;
   background-color: white;
   padding: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-h3 {
+
+h3, .content {
   margin-top: 2rem !important;
 }
-.page-item.active .page-link{
+
+.page-item.active .page-link {
   background-color: red !important;
   border-color: red !important;
 }
+
 .footer {
   padding: 2rem 0;
   background-color: black;
   color: white;
   margin-top: 3rem;
 }
+
 .copyright {
   padding: 1rem;
   text-align: center;
   background-color: black;
   color: white;
 }
-.content-1 {
-  margin-top: 1rem;
-}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+.nav-link  {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  border-left: $border;
+  padding: 0rem 1rem !important;
+
+  &:hover {
+   color: $color;
+  }
+}
+
+.navbar-toggler {
+  padding:  .125rem !important;
+  font-size: .75rem !important;
+}
