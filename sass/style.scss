@@ -16,11 +16,15 @@ body {
 @import 'media';
 
 .header {
-  height: 470px;
-  background-image: url(../img/headerbg.jpg);
-  @include background;
+ /* height: 470px;*/
+ /* background-image: url(../img/headerbg.jpg);*/
+  /*@include background;*/
   color: $colorWhite;
   text-align: center;
+}
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
 }
 
 .fa {
@@ -39,8 +43,12 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-h3,.content {
+.content {
   margin-top: 2rem !important;
+}
+
+h3 {
+  padding-top: 10rem;
 }
 
 .page-item.active .page-link {

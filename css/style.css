@@ -1,3 +1,90 @@
-body{background-color:#f8f8f8 !important}.nav-link{text-transform:uppercase;font-size:0.875rem;border-left:0.0625rem solid #000;padding:0rem 1rem !important}.nav-link:hover{color:#1376F8 !important}.navbar-toggler{padding:.125rem !important;font-size:.75rem !important}@media only screen and (max-width: 707px){.nav-link{font-size:.9375rem;padding:0rem .25rem !important}.form-control{width:8rem !important;font-size:.4rem !important}.fa{font-size:1rem !important}}.header{height:470px;background-image:url(../img/headerbg.jpg);background-size:cover;background-position:center;background-repeat:no-repeat;color:#fff;text-align:center}.fa{font-size:1.5rem;color:black}.fa:hover{color:#1376F8 !important}.block{margin:1rem;background-color:#fff;padding:1rem;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);box-shadow:0 0 10px rgba(0,0,0,0.5)}h3,.content{margin-top:2rem !important}.page-item.active .page-link{background-color:red !important;border-color:red !important}.footer{padding:2rem 0;background-color:#000;color:#fff;margin-top:3rem}.copyright{padding:1rem;text-align:center;background-color:#000;color:#fff}
+body {
+  background-color: #f8f8f8 !important;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  border-left: 0.0625rem solid black;
+  padding: 0rem 1rem !important;
+}
+.nav-link:hover {
+  color: #1376F8 !important;
+}
+
+.navbar-toggler {
+  padding: .125rem !important;
+  font-size: .75rem !important;
+}
+
+@media only screen and (max-width: 707px) {
+  .nav-link {
+    font-size: .9375rem;
+    padding: 0rem .25rem !important;
+  }
+
+  .form-control {
+    width: 8rem !important;
+    font-size: .4rem !important;
+  }
+
+  .fa {
+    font-size: 1rem !important;
+  }
+}
+.header {
+  /* height: 470px;*/
+  /* background-image: url(../img/headerbg.jpg);*/
+  /*@include background;*/
+  color: white;
+  text-align: center;
+}
+
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
+}
+
+.fa {
+  font-size: 1.5rem;
+  color: black;
+}
+.fa:hover {
+  color: #1376F8 !important;
+}
+
+.block {
+  margin: 1rem;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  margin-top: 2rem !important;
+}
+
+h3 {
+  padding-top: 10rem;
+}
+
+.page-item.active .page-link {
+  background-color: red !important;
+  border-color: red !important;
+}
+
+.footer {
+  padding: 2rem 0;
+  background-color: black;
+  color: white;
+  margin-top: 3rem;
+}
+
+.copyright {
+  padding: 1rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>bootstrap4</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="https://use.fontawesome.com/106b1b0ae0.js"></script>
     <link href="css/style.css" rel="stylesheet">
 
@@ -47,9 +49,10 @@
   </div>
     </nav>
 <header class="header d-flex flex-column justify-content-center align-items-center">
-  <div class="container">
-    <h3 class="display-4">Best website on Bootstrap v4.0.0-beta & SASS</h3>
-    <p class="lead"> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p> 
+  <div class="container-fluid">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/headerbg.jpg"><h3 class="display-4">Best website on Bootstrap v4.0.0-beta & SASS</h3><p class="lead"> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p> </div>
+    <!-- <h3 class="display-4">Best website on Bootstrap v4.0.0-beta & SASS</h3> -->
+   <!--  <p class="lead"> Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>  -->
   </div>
 </header>    
 <div class="container-fluid content">
@@ -199,6 +202,9 @@
     <p>©Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
   </div>
 </div>
+<script type="text/javascript">
+  $('.parallax-window').parallax({imageSrc: 'img/headerbg.jpg'});
+</script>
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
