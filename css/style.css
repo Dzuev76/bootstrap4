@@ -33,9 +33,6 @@ body {
   }
 }
 .header {
-  /* height: 470px;*/
-  /* background-image: url(../img/headerbg.jpg);*/
-  /*@include background;*/
   color: white;
   text-align: center;
 }
